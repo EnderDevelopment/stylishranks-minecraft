@@ -1,0 +1,14 @@
+name: RankPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+api-version: "1.21"
+commands:
+  rank:
+    description: Assign or remove ranks.
+    usage: /rank <set|remove> <player> <rank>
+    permission: rankplugin.rank
+permissions:
+  rankplugin.rank:
+    description: Allows assigning or removing ranks.
+    default: op
